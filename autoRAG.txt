@@ -1,0 +1,60 @@
+Below is the brief introduction of AutoRAG.
+
+Discovering the most effective pipeline for your specific data and use case can be daunting. It requires experimenting with various RAG modules and configurations, which are both time-consuming and complex.
+
+AutoRAG addresses this challenge by automatically evaluating different combinations of RAG modules and their parameters. You don't need to write implementation code yourself; everything is set up through a single YAML file.
+
+Our aim is to save you the hassle of continuously adapting to new RAG modules and configurations. Instead, you can focus on developing robust data for your RAG-based products.
+
+In our test using the Eli5 dataset, AutoRAG improved retrieval performance by 11% and generation performance by up to 22%.
+
+
+RAG AutoML tool for automatically finds an optimal RAG pipeline for your data.
+
+🤷‍♂️ Why AutoRAG?
+There are numerous RAG pipelines and modules out there, but you don’t know what pipeline is great for “your own data” and “your own use-case.” Making and evaluating all RAG modules is very time-consuming and hard to do. But without it, you will never know which RAG pipeline is the best for your own use-case.
+
+That’s where AutoRAG comes in.
+
+🤸‍♂️ How can AutoRAG helps?
+AutoRAG is a tool for finding optimal RAG pipeline for “your data.” You can evaluate various RAG modules automatically with your own evaluation data, and find the best RAG pipeline for your own use-case.
+
+AutoRAG supports
+
+Data Creation: Create RAG evaluation data with your own raw documents.
+
+Optimization: Automatically run experiments to find the best RAG pipeline for your own data.
+
+Deployment: Deploy the best RAG pipeline with single yaml file. Supports FastAPI server as well.
+
+🏃‍♂️ Getting Started
+pip install AutoRAG
+
+In our documentation, we will guide you through the process of installation and tutorial for AutoRAG starter. After you find your first RAG pipeline with AutoRAG, you can learn how to read result files at here.
+
+And do you want to get the ultimate performance RAG pipeline? Learn how make great evaluation dataset with your own raw documents at here.
+
+Also, you can learn how to set various experiment configurations at optimization guide.
+
+Of course, you can use your own local LLM or embedding model with AutoRAG. Go to here to learn how to use your own model with AutoRAG.
+
+If you face any trouble? Check out our troubleshooting guide. Also, feel free to ask your question at our github issue or Discord channel.
+
+Tutorial
+Tip
+
+Before start this tutorial, make sure you installed AutoRAG. To install it, please check Installation.
+
+Colab Tutorial
+
+Do you use Colab? You can check out Colab tutorial at here.
+
+Prepare Evaluation Dataset
+First, you have to prepare an evaluation dataset for your RAG pipeline. Making a good evaluation dataset is the key to getting a good RAG pipeline. So, you need to focus on the quality of your evaluation dataset. Once you have it, the optimal RAG pipeline can be found using AutoRAG easily.
+
+So, for users who want to make a good evaluation dataset, we provide a detailed guide at here.
+
+For users who want to use a pre-made evaluation dataset, we provide example datasets at here.
+
+Also, you can check out sample datasets at huggingface. You can download it manually using huggingface datasets library.
+
